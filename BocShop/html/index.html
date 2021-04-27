@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bốc</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid search-and-cart">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="logo">
+                        <div class="logo-decor">
+                            <i class="fa fa-circle" id="circle-1" aria-hidden="true"></i>
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-circle" id="circle-4" aria-hidden="true"></i>
+                        </div>
+                        <div class="logo-name">
+                            <p>BOC</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="search-box">
+                                    <div class="input-search">
+                                        <input type="text" placeholder="Tìm kiếm">
+                                    </div>
+                                    <div class="button-search">
+                                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 cart">
+                                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-bar">
+                        <ul>
+                            <li>
+                                <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Trang
+                                        chủ</span></a>
+                            </li>
+                            <li>
+                                <a href="shopChoCho.html"><span>Shop Cho Chó</span><i class="fa fa-angle-down"
+                                        aria-hidden="true"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Thức ăn</a></li>
+                                    <li><a href="#">Dây xích/Vòng cổ</a></li>
+                                    <li><a href="#">Đệm ngủ/Lồng</a></li>
+                                    <li><a href="#">Đồ chơi</a></li>
+                                    <li><a href="#">Dụng cụ ăn uống</a></li>
+                                    <li><a href="#">Dụng cụ vệ sinh</a></li>
+                                    <li><a href="#">Sữa tắm</a></li>
+                                    <li><a href="#">Phụ kiện khác</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span>Shop Cho Mèo</span><i class="fa fa-angle-down"
+                                        aria-hidden="true"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Thức ăn</a></li>
+                                    <li><a href="#">Dây xích/Vòng cổ</a></li>
+                                    <li><a href="#">Đệm ngủ/Lồng</a></li>
+                                    <li><a href="#">Đồ chơi</a></li>
+                                    <li><a href="#">Dụng cụ ăn uống</a></li>
+                                    <li><a href="#">Dụng cụ vệ sinh</a></li>
+                                    <li><a href="#">Sữa tắm</a></li>
+                                    <li><a href="#">Phụ kiện khác</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><Span>Spa Thú Cưng</Span><i class="fa fa-angle-down"
+                                        aria-hidden="true"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Tắm Spa</a></li>
+                                    <li><a href="#">Vệ Sinh Tai, Mắt</a></li>
+                                    <li><a href="#">Cắt Móng</a></li>
+                                    <li><a href="#">Cắt Tỉa Lông</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span>Thú Y</span><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="">Trị Nấm</a></li>
+                                    <li><a href="#">Trị Ve, Bọ</a></li>
+                                    <li><a href="#">Bệnh đường ruột</a></li>
+                                    <li><a href="#">Kinh Nghiệm</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span>Liên Hệ</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slogan">
+            <h1>The best things for special friends</h1>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="share-exp">
+                    <div class="container-fluid share-exp-logo">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="../img/chia-se-kinh-nghiem.png" alt="photo" class="share-exp-logo-img">
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="share-exp-logo-content">Chia sẻ kinh nghiệm chăm sóc thú cưng từ nhà Bốc <i
+                                        class="fa fa-paw" aria-hidden="true"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="share-exp-item">
+                    <a href="">
+                        <img src="../img/kinh-nghiem-cat-tia-mong-chan-cho-cho-300x200.jpg" alt="photo">
+                        <p>Cắt móng cho thú cưng như thế nào cho đúng cách</p>
+                    </a>
+                </div>
+                <div class="share-exp-item">
+                    <a href="">
+                        <img src="../img/cach-cat-mong-chan-cho-cho-600x430-300x200.jpg" alt="photo">
+                        <p>Các tip cắt móng cho thú cưng</p>
+                    </a>
+                </div>
+                <div class="share-exp-item">
+                    <a href="">
+                        <img src="../img/meo-anh-long-dai-300x200.jpg" alt="photo">
+                        <p>Cần làm gì khi mèo Anh bị tiêu chảy</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="tag-name">
+                    <a href=""><i class="fa fa-circle tag-name-circle" aria-hidden="true"></i><span>Nổi Bật</span></a>
+                </div>
+                <div class="khoi-slide">
+                    <div class="cac-slide">
+                        <div class="slide active"><img src="../img/slideshow_1.jpg" alt="photo" class="anh-slide"></div>
+                        <div class="slide"><img src="../img/slideshow_2.jpg" alt="photo" class="anh-slide"></div>
+                        <div class="slide"><img src="../img/slideshow_3.jpg" alt="photo" class="anh-slide"></div>
+                    </div>
+                    <div class="nut-slide">
+                        <span id="btn-prev"><i class="fa fa-angle-double-left" aria-hidden="true"></i></span>
+                        <span id="btn-next"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                        <ul>
+                            <li class="active-nut"></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="tag-name">
+                    <a href=""><i class="fa fa-circle tag-name-circle" aria-hidden="true"></i><span>shop Cho
+                            Chó</span></a>
+                </div>
+                <div class="container-fluid shop-item">
+                    <div class="row">
+                        <div class="col-lg-3 items">
+                            <a href="">
+                                <img src="../img/shopchocho/thuc_an_cho_1.jpg" alt="photo">
+                                <p>thức ăn cho chó</p>
+                                <p class="price">200.000</p>
+                                <button>Chọn Mua</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 items">
+                            <a href="">
+                                <img src="../img/shopchocho/thuc_an_cho_2.jpg" alt="photo">
+                                <p>thức ăn cho chó</p>
+                                <p class="price">240.000</p>
+                                <button>Chọn Mua</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 items">
+                            <a href="">
+                                <img src="../img/shopchocho/thuc_an_cho_3.png" alt="photo">
+                                <p>Thức ăn cho chó</p>
+                                <p class="price">400.000</p>
+                                <button>Chọn Mua</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 items">
+                            <a href="">
+                                <img src="../img/shopchocho/thuc_an_cho_4.png" alt="photo">
+                                <p>Thức ăn cho chó nhỏ</p>
+                                <p class="price">320.000</p>
+                                <button>Chọn Mua</button>
+                            </a>
+                        </div>
+                        <div class="more"><a href="shopChoCho.html">Xem Thêm >></a></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="tag-name">
+                    <a href=""><i class="fa fa-circle tag-name-circle" aria-hidden="true"></i><span>shop Cho
+                            Mèo</span></a>
+                </div>
+                <div class="container-fluid shop-item">
+                    <div class="row">
+                        <div class="col-lg-3 items">
+                            <a href="">
+                                <img src="../img/shopchomeo/thuc-an-meo-2.jpg" alt="photo">
+                                <p>Sữa bột cho mèo con</p>
+                                <p class="price">150.000</p>
+                                <button>Chọn Mua</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 items">
+                            <a href="">
+                                <img src="../img/shopchomeo/thuc-an-meo-3.jpg" alt="photo">
+                                <p>Thức ăn cho mèo</p>
+                                <p class="price">280.000</p>
+                                <button>Chọn Mua</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 items">
+                            <a href="">
+                                <img src="../img/shopchomeo/thuc-an-meo-4.jpg" alt="photo">
+                                <p>Thức ăn cho mèo</p>
+                                <p class="price">250.000</p>
+                                <button>Chọn Mua</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 items">
+                            <a href="">
+                                <img src="../img/shopchomeo/thuc-an-meo-1.jpg" alt="photo">
+                                <p>Thức ăn cho mèo</p>
+                                <p class="price">250.000</p>
+                                <button>Chọn Mua</button>
+                            </a>
+                        </div>
+                        <div class="more"><a href="">Xem Thêm >></a></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="tag-name">
+                    <a href=""><i class="fa fa-circle tag-name-circle" aria-hidden="true"></i></i><span>Spa Thú
+                            Cưng</span></a>
+                </div>
+                <div class="container-fluid shop-item">
+                    <div class="row">
+                        <div class="col-lg-4 items">
+                            <a href="">
+                                <img src="../img/Spa/spa-1.jpg" alt="photo">
+                                <p>Tỉa lông cho cún</p>
+                                <p class="price">200.000</p>
+                                <button>Đặt Lịch</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 items">
+                            <a href="">
+                                <img src="../img/Spa/spa-2.jpg" alt="photo">
+                                <p>Tắm cho cún</p>
+                                <p class="price">150.000</p>
+                                <button>Đặt Lịch</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 items">
+                            <a href="">
+                                <img src="../img/Spa/spa-3.jpg" alt="photo">
+                                <p>Tia lông khủng long cho mèo</p>
+                                <p class="price">300.000</p>
+                                <button>Đặt Lịch</button>
+                            </a>
+                        </div>
+                        <div class="more"><a href="">Xem Thêm >></a></div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="id1" class="col-lg-3">
+                    <div class="footer-col">
+                        <p class="footer-items">Về Chúng Tôi</p>
+                        <ul>
+                            <li><a href="">Giới thệu về Bốc</a></li>
+                            <li><a href="">Tuyển dụng</a></li>
+                            <li><a href="">Feedback từ khach nhà Bốc</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-col">
+                        <p class="footer-items">Chương trình & Chính sách</p>
+                        <ul>
+                            <li><a href="">Khuyến mại trong tháng</a></li>
+                            <li><a href="">Thẻ thành viên</a></li>
+                            <li><a href="">Chính sách vận chuyển</a></li>
+                            <li><a href="">Chính sách đổi trả</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-col">
+                        <p class="footer-items">Liên Hệ</p>
+                        <ul>
+                            <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i><span>: Trần Đại Nghĩa -
+                                        Hai Bà Trưng - Hà Nội</span></a></li>
+                            <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"><span>: Shop Nhà Bốc</span></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i><span>:
+                                        shop_nha_boc_2012</span></a></li>
+                            <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i><span>: 0982907035</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/query.js"></script>
+</body>
+<!-- <script src="../js/query.js"></script> -->
+
+</html>
